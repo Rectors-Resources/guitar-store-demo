@@ -27,11 +27,15 @@ nav {
 
 /*search bar and container styles*/
 .search-area {
-    display: flex;
-    padding: 0 1rem 1rem;
-    align-items: center;
+  display: flex;
+  padding: 0 1rem 1rem;
+  align-items: center;
 }
 .search-bar {
-    width: 90%;
-    padding: 0.45rem;
+  width: 90%;
+  padding: 0.45rem;
+}
+.search-btn {
+  padding: 0.45rem;
+  margin: 0 0.5rem;
 }
