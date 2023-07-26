@@ -28,11 +28,11 @@ export default function NavBar() {
             <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
           </svg>
         </ul>
-        <div className="search-area">
+        <form className="search-area">
           <input type="text" placeholder="Search" className="search-bar" />
           
-          <button className="search-btn">Search</button>
-        </div>
+          <input type="submit" value="Search"className="search-btn"/>
+        </form>
       </nav>
     </header>
   );
