@@ -1,0 +1,41 @@
+nav {
+  border-bottom: 2px solid #0f0f0f;
+  text-align: center;
+}
+
+.top-nav {
+  display: flex;
+  text-align: center;
+  margin: 15px;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-img {
+  max-height: 4.5rem;
+  object-fit: contain;
+  flex: auto;
+}
+
+.nav-item {
+  flex: auto;
+}
+
+.cart-svg {
+  cursor: pointer;
+}
+
+/*search bar and container styles*/
+.search-area {
+    margin-bottom: 1rem;
+}
+.search-bar {
+    width: 90%;
+    padding: 0.45rem;
+}
+.search-svg {
+    max-height: 15%;
+    position: absolute;
+    top: 11%;
+    right: 5%;
+}

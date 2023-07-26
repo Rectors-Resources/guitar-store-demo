@@ -1,0 +1,12 @@
+.shop-by-brand {
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.brand-container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    max-width: 99%;
+    margin: auto;
+}

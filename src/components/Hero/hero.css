@@ -1,0 +1,12 @@
+.hero-banner {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.hero-img {
+    width: 99%;
+    padding: 1rem 0;
+    max-height: 50vh;
+    object-fit: cover;
+    object-position: 0 10%;
+    
+}
