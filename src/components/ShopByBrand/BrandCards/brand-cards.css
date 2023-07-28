@@ -1,6 +1,6 @@
 .brand-card {
     text-align: center;
-    
+    cursor: pointer;
     filter: grayscale(50%);
     transition: filter 200ms linear;
 }
@@ -8,10 +8,6 @@
     
     width: 12rem;
     height: 12rem;
-    /*
-    max-width: 15rem;
-    max-height: 15rem;
-    */
     opacity: 80%;
     object-fit: cover;
 }

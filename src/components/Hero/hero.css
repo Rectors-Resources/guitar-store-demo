@@ -1,7 +1,6 @@
 .hero-banner {
     text-align: center;
     padding-bottom: 1rem;
-    color: var(--text-color);
 }
 .hero-img {
     width: 99%;
@@ -9,7 +8,7 @@
     max-height: 50vh;
     object-fit: cover;
     object-position: 0 10%;
-    
+    border-radius: 30px;   
 }
 .hero-text {
     font-size: 2rem;

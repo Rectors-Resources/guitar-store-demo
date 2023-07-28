@@ -13,8 +13,9 @@ export default function WeeksDeals() {
         {thisWeeksDeals.map(item => {
            return <DealCard itemName={item.name} price={item.price} img={item.img}/>
         })}
+        
       </div>
-      
+      <a href="">View More</a>
 
     </section>
   );

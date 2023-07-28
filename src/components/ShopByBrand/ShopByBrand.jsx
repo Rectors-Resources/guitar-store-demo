@@ -10,6 +10,7 @@ export default function () {
         {brands.map((brand) => {
           return <BrandCards brand={brand.name} img={brand.img} />;
         })}
+        
       </div>
     </section>
   );

@@ -2,13 +2,15 @@ nav {
   border-bottom: 2px solid #0f0f0f;
   text-align: center;
   font-size: 1.15rem;
+  background: #f3f3f3;
+
 }
 
 .top-nav {
   color: var(--text-color);
   display: flex;
   text-align: center;
-  margin: 15px;
+  padding: 15px;
   align-items: center;
   list-style: none;
 }
@@ -30,6 +32,8 @@ nav {
 /*search bar and container styles*/
 .search-area {
   display: flex;
+  width: 70%;
+  margin: auto;
   padding: 0 1rem 1rem;
   align-items: center;
 }
