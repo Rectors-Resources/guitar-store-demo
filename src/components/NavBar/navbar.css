@@ -4,6 +4,7 @@ nav {
 }
 
 .top-nav {
+  color: var(--text-color);
   display: flex;
   text-align: center;
   margin: 15px;
