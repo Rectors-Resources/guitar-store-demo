@@ -8,6 +8,6 @@
     margin: 1rem;
     border: 2px solid black;
     border-radius: 5px;
-    background: linear-gradient(var(--color-one), var(--color-two), var(--color-three));
+    background: linear-gradient(var(--text-color), #666, #777, var(--text-color));
 
 }
