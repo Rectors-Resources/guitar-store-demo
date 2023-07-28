@@ -1,6 +1,17 @@
 import "./navbar.css";
+import { useState } from "react";
+
+
 
 export default function NavBar() {
+  const [input, setInput] = useState()
+  const handleChange = (e) => {
+    setInput(e.target.value)
+  }
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    alert(`You just searched ${input}`)
+  }
   return (
     <header>
       <nav>
@@ -28,10 +39,10 @@ export default function NavBar() {
             <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
           </svg>
         </ul>
-        <form className="search-area">
-          <input type="text" placeholder="Search" className="search-bar" />
+        <form className="search-area" >
+          <input type="text" placeholder="Search" className="search-bar" name='search'value={input}onChange={handleChange}/>
           
-          <input type="submit" value="Search"className="search-btn"/>
+          <input type="submit" value="Search"className="search-btn" />
         </form>
       </nav>
     </header>

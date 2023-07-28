@@ -1,6 +1,7 @@
 .hero-banner {
     text-align: center;
     padding-bottom: 1rem;
+    color: var(--text-color);
 }
 .hero-img {
     width: 99%;
@@ -9,4 +10,8 @@
     object-fit: cover;
     object-position: 0 10%;
     
+}
+.hero-text {
+    font-size: 2rem;
+    font-weight: bold;
 }

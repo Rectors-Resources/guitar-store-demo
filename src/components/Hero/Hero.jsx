@@ -8,7 +8,7 @@ export default function Hero() {
         alt="Rocker playing headless guitar on top of an amp"
         className="hero-img"
       />
-      <h1>Anyone can be a rock star at the Strat Shack!</h1>
+      <h1 className="hero-text">Anyone can be a rock star at the Strat Shack!</h1>
     </section>
   );
 }

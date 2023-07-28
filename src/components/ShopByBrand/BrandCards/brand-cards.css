@@ -1,23 +1,28 @@
 .brand-card {
     text-align: center;
-}
-.brand-img {
-    max-width: 15rem;
-    min-height: 15rem;
-    opacity: 80%;
+    
     filter: grayscale(50%);
     transition: filter 200ms linear;
+}
+.brand-img {
+    
+    width: 12rem;
+    height: 12rem;
+    /*
+    max-width: 15rem;
+    max-height: 15rem;
+    */
+    opacity: 80%;
     object-fit: cover;
 }
-.brand-img:hover {
+.brand-card:hover {
     filter: grayscale(90%);
 }
 .img-text {
     position: relative;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     top: -50%;
-    color: white;
-    background-color: rgba(0,0,0,0.3);
+    color: #fff;
     max-width: fit-content;
     margin: auto;
 }
