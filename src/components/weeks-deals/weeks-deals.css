@@ -5,8 +5,7 @@
     margin: 3rem auto;
     padding: 2rem;
     text-align: center;
-    background: #A69595aa;
-
+    background: var(--red);
 
     
 }

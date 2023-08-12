@@ -2,8 +2,9 @@
     text-align: center;
     border: 2px solid black;
     border-radius: 5px;
+    width: 90%;
     margin: auto;
-    background: #85A68Eaa;
+    background: var(--red);
 }
 .brand-container {
     padding: 2rem;
@@ -11,6 +12,7 @@
     grid-column-gap: 10px;
     justify-content: center;
     grid-template-columns: auto auto;
+    
 }
 @media screen and (max-width: 400px) {
     .brand-container {

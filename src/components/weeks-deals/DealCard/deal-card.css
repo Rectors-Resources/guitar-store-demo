@@ -2,19 +2,23 @@
     max-width: 15rem;
     min-height: 20rem;
     object-fit: cover;
+    
 }
 .deal-card {
     padding: 1rem;
     margin: 1rem;
     border: 2px solid black;
     border-radius: 5px; 
-    background: #fff;
     width: 18rem;
-
+    background: #fff;
 }
-.deal-card > button {
-    background: #f3f3f3;
+.bkgrnd-div > button {
     border-radius: 5px;
-    padding: 5px;
-    margin: 5px;
+    padding: 0.1rem;
+    margin: 0.1rem;
+    width: 60%;
+    background: #fff;
+}
+.bkgrnd-div {
+    padding: 0.5rem;
 }

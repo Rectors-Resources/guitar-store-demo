@@ -3,12 +3,12 @@
     cursor: pointer;
     filter: grayscale(50%);
     transition: filter 200ms linear;
+    
 }
 .brand-img {
     
     width: 12rem;
     height: 12rem;
-    opacity: 80%;
     object-fit: cover;
 }
 .brand-card:hover {
@@ -19,6 +19,7 @@
     font-size: 1.8rem;
     top: -50%;
     color: #fff;
+    -webkit-text-stroke: 0.04rem black;
     max-width: fit-content;
     margin: auto;
 }

@@ -15,7 +15,6 @@ export default function WeeksDeals() {
         })}
         
       </div>
-      <a href="">View More</a>
 
     </section>
   );
