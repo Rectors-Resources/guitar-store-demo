@@ -8,11 +8,9 @@ import "./App.css";
 function App() {
   return (
     <>
-      <NavBar />
       <Hero />
       <WeeksDeals />
       <BrandLessons></BrandLessons>
-      <Footer />
     </>
   );
 }

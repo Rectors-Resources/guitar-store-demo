@@ -18,6 +18,7 @@ nav {
   max-height: 4rem;
   object-fit: contain;
   flex: auto;
+  cursor: pointer;
 }
 
 .nav-item {

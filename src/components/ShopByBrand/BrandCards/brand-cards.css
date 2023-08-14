@@ -15,11 +15,13 @@
     filter: grayscale(90%);
 }
 .img-text {
+    padding: 0.2rem;
     position: relative;
     font-size: 1.8rem;
+    border-radius: 2px;
     top: -50%;
     color: #fff;
-    -webkit-text-stroke: 0.04rem black;
     max-width: fit-content;
     margin: auto;
+    background: #333333aa;
 }

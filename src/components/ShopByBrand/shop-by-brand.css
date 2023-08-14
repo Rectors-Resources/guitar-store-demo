@@ -6,6 +6,9 @@
     margin: auto;
     background: var(--red);
 }
+.shop-by-brand h2 {
+    padding: 1rem;
+}
 .brand-container {
     padding: 2rem;
     display: grid;
