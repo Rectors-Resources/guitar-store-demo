@@ -1,5 +1,5 @@
 export const allProductsLoader = () => {
-    return fetch("../../../public/products.json")
+    return fetch("../../../products.json")
       .then((data) => {
         return data.json();
       })
