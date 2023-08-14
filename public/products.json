@@ -1,0 +1,193 @@
+{
+  "products": [
+    {
+      "name": "Gibson Les Paul Standard",
+      "brand": "Gibson",
+      "price": 1999.99,
+      "type": "guitar",
+      "id": 1
+    },
+    {
+      "name": "Gibson SG Custom Shop",
+      "brand": "Gibson",
+      "price": 2699.99,
+      "type": "guitar",
+      "id": 2
+    },
+    {
+      "name": "Gibson FireBird",
+      "brand": "Gibson",
+      "price": 2499.99,
+      "type": "guitar",
+      "id": 3
+    },
+    {
+      "name": "Gibson RD",
+      "brand": "Gibson",
+      "price": 5499.99,
+      "type": "guitar",
+      "id": 4
+    },
+    {
+      "name": "Fender American Professional Telecaster",
+      "brand": "Fender",
+      "price": 1499.99,
+      "type": "guitar",
+      "id": 5
+    },
+    {
+      "name": "Fender American Professional Jazzmaster",
+      "brand": "Fender",
+      "price": 1299.99,
+      "type": "guitar",
+      "id": 6
+    },
+    {
+      "name": "Fender American Professional Jaguar",
+      "brand": "Fender",
+      "price": 1699.99,
+      "type": "guitar",
+      "id": 7
+    },
+    {
+      "name": "Fender American Professional Stratocaster HSS",
+      "brand": "Fender",
+      "price": 1699.99,
+      "type": "guitar",
+      "id": 8
+    },
+    {
+      "name": "Fender American Professional Stratocaster SSS",
+      "brand": "Fender",
+      "price": 1699.99,
+      "type": "guitar",
+      "id": 9
+    },
+    {
+      "name": "Jackson X series Dinky DK2XR",
+      "brand": "Jackson",
+      "price": 449.99,
+      "type": "guitar",
+      "id": 10
+    },
+    {
+      "name": "Jackson American Series Soloist SL3",
+      "brand": "Jackson",
+      "price": 2499.99,
+      "type": "guitar",
+      "id": 11
+    },
+    {
+      "name": "Jackson JS Series King V JS32",
+      "brand": "Jackson",
+      "price": 369.99,
+      "type": "guitar",
+      "id": 12
+    },
+    {
+      "name": "Ibanez JEMJR Steve Vai Signature JEM",
+      "brand": "Ibanez",
+      "price": 2499.99,
+      "type": "guitar",
+      "id": 13
+    },
+    {
+      "name": "Ibanez RGD71ALMS Axion Label Multi-Scale 7-String",
+      "brand": "Ibanez",
+      "price": 2499.99,
+      "type": "guitar",
+      "id": 14
+    },
+    {
+      "name": "Ibanez Artcore AS73G Semi-Hollow",
+      "brand": "Ibanez",
+      "price": 499.99,
+      "type": "guitar",
+      "id": 15
+    },
+    {
+      "name": "Gibson SG Standard Bass",
+      "brand": "Gibson",
+      "price": 1999.0,
+      "type": "bass",
+      "id": 16
+    },
+    {
+      "name": "Gibson Non-Reverse Thunderbird Bass",
+      "brand": "Gibson",
+      "price": 2199.0,
+      "type": "bass",
+      "id": 17
+    },
+    {
+      "name": "Fender Vintera '50s Precision Bass",
+      "brand": "Fender",
+      "price": 879.99,
+      "type": "bass",
+      "id": 18
+    },
+    {
+      "name": "Fender Player Precision Bass Maple Fingerboard",
+      "brand": "Fender",
+      "price": 874.99,
+      "type": "bass",
+      "id": 19
+    },
+    {
+      "name": "Fender American Ultra Jazz Bass",
+      "brand": "Fender",
+      "price": 2249.99,
+      "type": "bass",
+      "id": 20
+    },
+    {
+      "name": "Jackson Pro Series Spectra SBP IV",
+      "brand": "Jackson",
+      "price": 749.99,
+      "type": "bass",
+      "id": 21
+    },
+    {
+      "name": "Jackson X Series Concert CBXNT DX IV",
+      "brand": "Jackson",
+      "price": 499.99,
+      "type": "bass",
+      "id": 22
+    },
+    {
+      "name": "Jackson JS Series Spectra Bass JS23",
+      "brand": "Jackson",
+      "price": 199.99,
+      "type": "bass",
+      "id": 23
+    },
+    {
+      "name": "Ibanez SR500E",
+      "brand": "Ibanez",
+      "price": 699.99,
+      "type": "bass",
+      "id": 24
+    },
+    {
+      "name": "Ibanez TMB100",
+      "brand": "Ibanez",
+      "price": 249.99,
+      "type": "bass",
+      "id": 25
+    },
+    {
+      "name": "Ibanez SR305E 5-String",
+      "brand": "Ibanez",
+      "price": 399.99,
+      "type": "bass",
+      "id": 26
+    },
+    {
+      "name": "Ibanez SR300E",
+      "brand": "Ibanez",
+      "price": 349.99,
+      "type": "bass",
+      "id": 27
+    }
+  ]
+}

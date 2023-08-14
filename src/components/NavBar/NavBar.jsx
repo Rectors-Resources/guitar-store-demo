@@ -31,7 +31,7 @@ export default function NavBar() {
             <Link to="/" className="nav-item nav-button">
               Home
             </Link>
-            <Link className="nav-item nav-button" to="/products">
+            <Link className="nav-item nav-button" to="/products/all">
               Products
             </Link>
             <Link className="nav-item nav-button" to="/contact">

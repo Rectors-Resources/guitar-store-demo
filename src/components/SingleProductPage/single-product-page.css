@@ -1,0 +1,10 @@
+.product-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    align-items: center;
+}
+.product-container > img {
+    max-width: 50%;
+    margin: auto;
+}

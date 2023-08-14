@@ -1,0 +1,11 @@
+.single-product-card {
+    text-align: center;
+    max-width: 20%;
+}
+.single-product-card > img {
+    width: 100%;
+    cursor: pointer;
+}
+.name-click {
+    cursor: pointer;
+}
