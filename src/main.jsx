@@ -25,7 +25,7 @@ const router = createBrowserRouter(
       <Route path="cart" element={<CartPage />}></Route>
       <Route path="products" element={<ProductPage/>}>
         <Route
-          path=":filter"
+          path=":filter/:typeFilter"
           element={<ProductGallery />}
           loader={allProductsLoader}
         />

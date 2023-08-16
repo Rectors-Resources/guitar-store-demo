@@ -8,7 +8,7 @@ function App() {
     <>
       <Hero />
       <WeeksDeals />
-      <BrandLessons></BrandLessons>
+      <BrandLessons/>
     </>
   );
 }

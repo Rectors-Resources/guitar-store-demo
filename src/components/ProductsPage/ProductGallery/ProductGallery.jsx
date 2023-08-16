@@ -4,16 +4,18 @@ import "./product-gallery.css";
 
 export default function ProductGallery() {
   const products = useLoaderData();
-  const { filter } = useParams();
-  console.log(`${filter}`)
+  const { filter, typeFilter } = useParams();
   const filteredProducts = () => {
-    if (filter !== "all")
-      return products.products.filter((list) => {
-        return list.brand === filter;
+    if (filter === typeFilter) {
+      return products.products;
+    } else {
+      return products.products.filter((item) => {
+        return (
+          (filter === "all" ? true : item.brand === filter) &&
+          (typeFilter === "all" ? true : item.type === typeFilter)
+        );
       });
-      else {
-        return products.products
-      }
+    }
   };
   return (
     <div className="products">
