@@ -8,16 +8,15 @@
   text-align: center;
   border: 2px solid black;
   border-radius: 5px;
-  
+  width: 30%;
   padding: 0.8rem;
   margin: 0 auto;
 }
 .lesson-container p {
   padding: 1rem;
 }
-/* @media screen and (max-width: 420px) {
+@media screen and (max-width: 420px) {
   .lesson-container {
-    flex-direction: column;
-    height: 50%;
+    width: 80%;
   }
-} */
+}

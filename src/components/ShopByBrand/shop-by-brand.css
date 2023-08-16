@@ -3,7 +3,7 @@
     border: 2px solid black;
     border-radius: 5px;
     margin: auto;
-    
+    width: 60%;
 }
 .shop-by-brand h2 {
     padding: 1rem;
@@ -19,5 +19,9 @@
 @media screen and (max-width: 420px) {
     .brand-container {
         grid-template-columns: auto;
+        
+    }
+    .shop-by-brand {
+        width: 80%;
     }
 }
