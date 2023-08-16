@@ -1,10 +1,11 @@
 import { useEffect, useState } from "react";
 import "./product-page.css";
-import { Outlet, useNavigate } from "react-router-dom";
+import { Outlet, useNavigate, useParams } from "react-router-dom";
 
 export default function ProductPage() {
-  const [filter, setFilter] = useState("all");
-  const [typeFilter, setTypeFilter] = useState("all");
+  const {brandFilter} = useParams()
+  const [filter, setFilter] = useState(brandFilter);
+  const [typeFilter, setTypeFilter] = useState('all');
   const navigate = useNavigate();
   const handleFilterChange = (e) => {
     setFilter(e.target.value);

@@ -31,7 +31,7 @@ export default function NavBar() {
             <Link to="/" className="nav-item nav-button">
               Home
             </Link>
-            <Link className="nav-item nav-button" to="/products/all">
+            <Link className="nav-item nav-button" to="/products/all/all">
               Products
             </Link>
             <Link className="nav-item nav-button" to="/contact">
@@ -60,9 +60,9 @@ export default function NavBar() {
               <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
             </svg>
           </ul>
-          <form className="search-area">
+          <form className="search-area" onSubmit={handleSubmit}>
             <input
-              type="text"
+              type="search"
               placeholder="Search"
               className="search-bar"
               name="search"
@@ -74,7 +74,7 @@ export default function NavBar() {
               type="submit"
               value="Search"
               className="search-btn"
-              onSubmit={handleSubmit}
+              
             />
           </form>
         </nav>

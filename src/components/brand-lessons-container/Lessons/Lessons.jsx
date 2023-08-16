@@ -1,4 +1,5 @@
 import "./lessons.css";
+import { Link } from "react-router-dom";
 
 export default function Lessons() {
   return (
@@ -16,8 +17,8 @@ export default function Lessons() {
           We offer lessons for students of any age in guitar, bass, and drums.
         </p>
         <p>
-          Call us at (111)-111-1111 or click <a href="">here</a> for any
-          questions or to schedule a lesson.
+          Call us at (111)-111-1111 or click <Link to="/contact">here</Link> for any
+          questions or to schedule a lesson. 
         </p>
       </div>
     </section>
